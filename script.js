@@ -83,7 +83,7 @@ function updateFss(dt) {
         if (fssAwakening > fssRandomAwaken) {
             fssIsSleeping = false;
             fssAwakening = 0;
-            fssRandomAwaken = 500 + ~~(Math.random() * 7000);
+            fssRandomAwaken = 400 + ~~(Math.random() * 7000);
         }
     } else {
         audioSnore.pause();
